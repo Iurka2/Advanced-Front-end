@@ -46,58 +46,58 @@ ease:"power4.out",
 
 }, "-=1")
 
-textrev.from(".hidetext3", 1.8,{
-  y: 200,
-  ease: "power4.out",
+// textrev.from(".hidetext3", 1.8,{
+//   y: 200,
+//   ease: "power4.out",
 
-  stagger: {
-      amount: 0.4,
-  },
-}, "-=0.9");
+//   stagger: {
+//       amount: 0.4,
+//   },
+// }, "-=0.9");
 
-text.from(".hidetext4", {
+// text.from(".hidetext4", {
 
-    duration:1.5,
-  y: 200,
-  ease: "power4.out",
+//     duration:1.5,
+//   y: 200,
+//   ease: "power4.out",
 
-  stagger: {
-      amount: 0.4,
-  },
-});
+//   stagger: {
+//       amount: 0.4,
+//   },
+// });
 
-text2.from(".hidetext5", {
+// text2.from(".hidetext5", {
 
-  duration:1.5,
-y: 200,
-ease: "power4.out",
+//   duration:1.5,
+// y: 200,
+// ease: "power4.out",
 
-stagger: {
-    amount: 0.4,
-},
-});
+// stagger: {
+//     amount: 0.4,
+// },
+// });
 
-text3.from(".hidetext6", {
+// text3.from(".hidetext6", {
 
-  duration:1.5,
-y: 200,
-ease: "power4.out",
+//   duration:1.5,
+// y: 200,
+// ease: "power4.out",
 
-stagger: {
-    amount: 0.4,
-},
-});
+// stagger: {
+//     amount: 0.4,
+// },
+// });
 
-text4.from(".hidetext7", {
+// text4.from(".hidetext7", {
 
-  duration:1.5,
-y: 200,
-ease: "power4.out",
+//   duration:1.5,
+// y: 200,
+// ease: "power4.out",
 
-stagger: {
-    amount: 0.4,
-},
-});
+// stagger: {
+//     amount: 0.4,
+// },
+// });
 
 
 ScrollTrigger.create({
@@ -108,42 +108,42 @@ ScrollTrigger.create({
 
 
 });
-ScrollTrigger.create({
-  animation: text2,
-  trigger:".hidetext5",
-  start: "20px 90%",
-  toggleActions:"play none none none",
+// ScrollTrigger.create({
+//   animation: text2,
+//   trigger:".hidetext5",
+//   start: "20px 90%",
+//   toggleActions:"play none none none",
 
 
-});
+// });
 
-ScrollTrigger.create({
-  animation: text3,
-  trigger:".hidetext6",
-  start: "20px 90%",
-  toggleActions:"play none none none",
-
-
-});
+// ScrollTrigger.create({
+//   animation: text3,
+//   trigger:".hidetext6",
+//   start: "20px 90%",
+//   toggleActions:"play none none none",
 
 
-ScrollTrigger.create({
-  animation: text3,
-  trigger:".hidetext6",
-  start: "20px 90%",
-  toggleActions:"play none none none",
+// });
 
 
-});
-
-ScrollTrigger.create({
-  animation: text4,
-  trigger:".hidetext7",
-  start: "20px 90%",
-  toggleActions:"play none none none",
+// ScrollTrigger.create({
+//   animation: text3,
+//   trigger:".hidetext6",
+//   start: "20px 90%",
+//   toggleActions:"play none none none",
 
 
-});
+// });
+
+// ScrollTrigger.create({
+//   animation: text4,
+//   trigger:".hidetext7",
+//   start: "20px 90%",
+//   toggleActions:"play none none none",
+
+
+// });
 
 
 
@@ -159,7 +159,8 @@ tl.to(".uncover_slice", 1.5 , {
 
 } , 'start')
 
-  tl.from(".myimg", 1.8 , {    
+  tl.from(".myimg", 1.8 , { 
+   
     scale: 0.9 ,  
     ease: "expo.inOut", 
     delay:0.5, 
